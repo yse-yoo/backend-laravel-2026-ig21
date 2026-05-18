@@ -11,6 +11,7 @@
     <header>
         <a href="/">Home</a>
         <a href="/about">About</a>
+        <a href="/product/1">Product1</a>
     </header>
     <!-- 各ページのコンテンツを表示 -->
     {{ $slot }}
