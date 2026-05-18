@@ -11,5 +11,7 @@ Route::get('/about', function () {
 });
 
 Route::get('/product/{id}', function ($id) {
-    return view('product.show');
+    // TODO: データベースで検索
+    $message = "商品IDは {$id} です。";
+    return view('product.show', ['message' => $message]);
 });
